@@ -54,7 +54,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: $GITHUB_ACCESS_TOKEN
+    secure: ${GITHUB_ACCESS_TOKEN}
   file: pressbooks-aldine-$TRAVIS_TAG.zip
   on:
     tags: true
