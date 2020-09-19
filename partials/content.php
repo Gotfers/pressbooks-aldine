@@ -21,7 +21,7 @@
 		if ( 'post' === get_post_type() ) :
 			?>
 		<div class="entry-meta">
-			<?php pressbooks_aldine_posted_on(); ?>
+			<?php //pressbooks_aldine_posted_on(); ?> <!-- Function doesn't exist -->
 		</div><!-- .entry-meta -->
 			<?php
 		endif;
@@ -55,6 +55,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php pressbooks_aldine_entry_footer(); ?>
+		<?php //pressbooks_aldine_entry_footer(); ?> <!-- Function doesn't exist -->
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
